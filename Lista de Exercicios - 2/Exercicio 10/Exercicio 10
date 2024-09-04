@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Dados</legend>
+        <div>
+            <a>Nome:</a>
+
+        <label for="Nome" id="Nome" name="Nome"></label>
+        <input type="text" name="Nome" id="Nome" placeholder="Seu Nome...">
+        </div>
+        <div>
+            <a>Idade:</a>
+            <label for="Idade" id="Idade" name="Idade"></label>
+            <input type="number" name="Idade" id="Idade" placeholder="Sua Idade...">
+        </div>
+        <div>
+            <a>Senha:</a>
+            <label for="Senha" id="Senha" name="Senha"></label>
+            <input type="password" name="Senha" id="Senha" placeholder="Sua Senha...">
+        </div>
+        <div>
+            <a>Cor:</a>
+            <label for="Cor"></label>
+            <input type="color" value="#ffff00">
+        </div>
+    </fieldset>
+    <button>Enviar</button>
+</form>
+</body>
+</html>
